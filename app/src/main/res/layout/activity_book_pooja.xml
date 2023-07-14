@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFA500"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="#FFA500"
+            android:src="@drawable/baseline_arrow_back_24"></ImageButton>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Pooja"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16sp">
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/pageTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/andika_new_basic"-->
+<!--        android:gravity="center"-->
+<!--        android:textStyle="bold"-->
+<!--        android:paddingBottom="16dp"-->
+<!--        android:text="List of Pooja's"-->
+<!--        android:textColor="@color/orange"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textSize="30sp" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:background="@color/yellow"
+        android:layout_marginTop="20dp"
+
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/pooja"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:fontFamily="sans-serif-black"
+
+
+
+            android:text="Available Poojas"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+
+            android:text="Cost"
+            android:layout_marginEnd="40dp"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_ads_click_24"
+
+            android:layout_marginEnd="20dp"
+            ></ImageView>
+    </LinearLayout>
+
+    <!-- Bus Option 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:background="@drawable/custom2"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+
+
+            android:fontFamily="@font/andika_new_basic"
+            android:text="Shani Pooja"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/andika_new_basic"
+            android:layout_marginStart="10dp"
+
+            android:text="60 rs"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70dp"
+            android:id="@+id/shanipooja"
+            android:layout_height="40dp"
+            android:text="Book"
+            android:textSize="9dp"
+            android:textColor="@color/yellow"></Button>
+    </LinearLayout>
+
+    <!-- Bus Option 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:background="@drawable/custom2"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+
+
+            android:fontFamily="@font/andika_new_basic"
+            android:text="Karpura Arathi"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/andika_new_basic"
+            android:layout_marginEnd="20dp"
+
+            android:text="10 rs"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70dp"
+            android:id="@+id/karpuraArathi"
+            android:layout_height="40dp"
+            android:text="Book"
+            android:textSize="9dp"
+            android:textColor="@color/yellow"></Button>
+    </LinearLayout>
+    <!-- Bus Option 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:background="@drawable/custom2"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+
+
+            android:fontFamily="@font/andika_new_basic"
+            android:text="Rudra Abhisheka"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/andika_new_basic"
+            android:layout_marginEnd="30dp"
+
+            android:text="50 rs"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="Book"
+            android:textSize="9dp"
+            android:id="@+id/rudra"
+            android:textColor="@color/yellow"></Button>
+    </LinearLayout>
+    <!-- Add more bus options as needed -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:background="@drawable/custom2"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+
+
+            android:fontFamily="@font/andika_new_basic"
+            android:text="Ramba Vivaha"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/andika_new_basic"
+            android:layout_marginStart="10dp"
+
+            android:text="1000 rs"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70dp"
+            android:id="@+id/ramba"
+            android:layout_height="40dp"
+            android:text="Book"
+            android:textSize="9dp"
+            android:textColor="@color/yellow"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:background="@drawable/custom2"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+
+
+            android:fontFamily="@font/andika_new_basic"
+            android:text="Navagraha"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/andika_new_basic"
+            android:layout_marginStart="10dp"
+
+            android:text="60 rs"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70dp"
+            android:id="@+id/navagraha"
+            android:layout_height="40dp"
+            android:text="Book"
+            android:textSize="9dp"
+            android:textColor="@color/yellow"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:background="@drawable/custom2"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+
+
+            android:fontFamily="@font/andika_new_basic"
+            android:text="ganesha Pooja"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/andika_new_basic"
+            android:layout_marginStart="10dp"
+
+            android:text="50 rs"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70dp"
+            android:id="@+id/ganesha"
+            android:layout_height="40dp"
+            android:text="Book"
+            android:textSize="9dp"
+            android:textColor="@color/yellow"></Button>
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

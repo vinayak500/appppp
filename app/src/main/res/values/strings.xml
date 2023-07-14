@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">myApplication
+    </string>
+    <string name="select_time_hint">Select time</string>
+    <string-array name="options_array">
+        <item>select the time slot</item>
+        <item>07:00 - 07.30 AM </item>
+        <item>07:30 - 08:00 AM</item>
+        <item>12:00 - 12:30 PM</item>
+        <item>12:30 - 01:00 PM</item>
+        <item>01:00 - 01:30 PM</item>
+        <item>01:30 - 02:00 PM</item>
+        <item>08:00 - 08:30 PM</item>
+    </string-array>
+
+    <string-array name="donation_options">
+        <item>choose the purpose of donation</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+    </string-array>
+
+
+</resources>

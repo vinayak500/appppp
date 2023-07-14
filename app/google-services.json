@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "644929222883",
+    "project_id": "neweseva-912ea",
+    "storage_bucket": "neweseva-912ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644929222883:android:7c2d3e3c057487ad0fadd6",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644929222883-o59829i38n2cigi4cq0jtdjcaqd0b7d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFH6Og6xESmiFw7vUtL_DK4ToYSPUEW6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644929222883-o59829i38n2cigi4cq0jtdjcaqd0b7d5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
